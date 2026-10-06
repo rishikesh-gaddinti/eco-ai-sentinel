@@ -1,0 +1,13 @@
+requests==2.31.0
+pandas==2.2.0
+
+scikit-learn==1.4.0
+tensorflow==2.15.0
+
+langchain==0.1.7
+langchain-google-genai==0.0.9
+langchain-chroma==0.1.0
+langchain-huggingface==0.0.1
+
+streamlit==1.32.0
+plotly==5.18.0
