@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import plotly.express as px
 import plotly.graph_objects as go
 import time
 import os
+
+# Disable CUDA to prevent GPU segfaults on Streamlit Cloud
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 from data_ingestion import fetch_realtime_air_quality_batch, INDIAN_CITIES
 from anomaly_detection import EnvironmentalAnomalyDetector
