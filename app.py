@@ -4,6 +4,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import time
+import os
 
 from data_ingestion import fetch_realtime_air_quality_batch, INDIAN_CITIES
 from anomaly_detection import EnvironmentalAnomalyDetector
